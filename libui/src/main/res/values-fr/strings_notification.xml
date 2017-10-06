@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
 <resources>
     <string name="notification_on_text">Notifications</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_on_desc">Quand activé, %s affichera une notification à chaque fois qu\'une publicité est bloquée.</string>
+
     <!-- Title of the notification that shows up every time ad is blocked. -->
     <string name="notification_blocked_title">Pub bloquée</string>
     <!-- Content of the notification that shows up every time ad is blocked. Parameter: blocked host name. -->
@@ -11,12 +11,15 @@
     <string name="notification_blocked_off">Ne pas afficher</string>
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
     <string name="notification_blocked_whitelist">Liste blanche</string>
+
     <!-- Toast message that shows up once user adds a host to the whitelist, using a button from the notification. -->
     <string name="notification_blocked_whitelist_applied">Fait! Les changements peuvent prendre quelques secondes</string>
+
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_disabled">%s n\'affichera pas les notifications de publicités.</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_enabled">%s n\'affichera pas les notifications à chaque fois qu\'une publicité est bloquée.</string>
+
     <string name="notification_keepalive_text">Maintenir actif</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_desc">Si activé, %s utilisera des techniques qui l\'aide à resister au nettoyage de la mémoire.</string>

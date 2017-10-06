@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <resources>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="tunnel_hosts_desc">Affiche le nombre d’hôtes configurés pour être bloqués par %s.</string>
@@ -7,12 +6,14 @@
         <item quantity="one">%d hôte</item>
         <item quantity="other">%d hôtes</item>
     </plurals>
+
     <string name="tunnel_ads_desc">Affiche le nombre total de publicités bloquées jusqu\'à présent.</string>
     <!-- The counter displayed the total number of ads blocked (in the home screen). Parameter: number of ads blocked. -->
     <plurals name="tunnel_ads_blocked">
         <item quantity="one">%d pub bloquée</item>
         <item quantity="other">%d pubs bloquées</item>
     </plurals>
+
     <string name="tunnel_selected_desc">Appuyer pour choisir la méthode de blocage qui marche le mieux pour votre appareil.</string>
     <string name="tunnel_selected_legacy">Blocage classique</string>
     <string name="tunnel_selected_legacy_desc">Cette méthode de blocage marche sur tous les appareils mais peut légèrement augmenter l\'utilisation de la batterie ou affecter les performances. Si le blocage optimisé n\'est pas compatible avec votre appareil, utilisez cette méthode à la place.</string>
